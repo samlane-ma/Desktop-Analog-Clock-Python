@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/samlane-ma/desktop-analog-clock/" 
+              id="com.github.samlane-ma.desktop-analog-clock">
+        <key type="i" name="x">
+            <summary>x</summary>
+            <description>x</description>
+            <default>100</default>
+        </key>
+        <key type="i" name="y">
+            <summary>y</summary>
+            <description>y</description>
+            <default>100</default>
+        </key>
+        <key type="i" name="scale">
+            <summary>sx</summary>
+            <description>sx</description>
+            <default>100</default>
+        </key>
+        <key type="b" name="show-desktop">
+            <summary>Show analog clock on desktop</summary>
+            <description>Show the analog clock on the desktop</description>
+            <default>false</default>
+        </key>
+        <key type="d" name="transparency">
+            <summary>Transparency</summary>
+            <description>Transparency</description>
+            <default>1.0</default>
+        </key>
+        <key type="i" name="clock-number">
+            <range min="1" max="4" />
+            <summary>Clock Number</summary>
+            <description>Clock Number</description>
+            <default>1</default>
+        </key>
+            <key type="s" name="color-hands">
+            <summary>Hand Color</summary>
+            <description>Color of the hour / minute hands</description>
+            <default>"black"</default>
+        </key>
+            <key type="s" name="color-face">
+            <summary>Face Color</summary>
+            <description>Color of the clock face</description>
+            <default>"white"</default>
+        </key>
+            <key type="s" name="color-seconds">
+            <summary>Seconds Hand Color</summary>
+            <description>Color of the seconds hands</description>
+            <default>"red"</default>
+        </key>
+         <key name="show-seconds" type="b">
+            <summary>Show Seconds</summary>
+            <description>Show a ticking seconds hand</description>
+            <default>true</default>
+        </key>
+    </schema> 
+</schemalist>

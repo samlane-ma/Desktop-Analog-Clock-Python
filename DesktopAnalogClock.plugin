@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=desktop_analog_clock
+Name=Desktop Analog Clock
+Description=Analog Clock for the Budgie Desktop
+Authors=Samuel Lane
+Copyright=Copyright © 2020 Samuel Lane
+Website=
+Icon=org.gnome.clocks-symbolic
